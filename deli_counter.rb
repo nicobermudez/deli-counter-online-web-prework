@@ -2,7 +2,7 @@
 katz_deli = []
 
 def line(array)
-  if array = [] || array = nil 
+  if array.empty?
     puts "The line is currently empty."
   else 
     string= "The line is currently:"
