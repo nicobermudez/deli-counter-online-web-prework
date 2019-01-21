@@ -17,4 +17,6 @@ end
 def now_serving
   if array = [] || array = nil
     puts "The line is currently empty."
+  end
+  
 end
