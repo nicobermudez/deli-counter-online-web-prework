@@ -2,7 +2,7 @@
 katz_deli = []
 
 def line(array)
-  if array = [] || array = nil 
+  if array == [] || array = nil 
     puts "The line is currently empty."
   
   end
@@ -15,7 +15,7 @@ def take_a_number(array, name)
 end
 
 def now_serving(array)
-  if array = [] || array = nil
+  if array == [] || array = nil
     puts "There is nobody waiting to be served!"
   else 
     puts "Currently serving #{array[0]}"
